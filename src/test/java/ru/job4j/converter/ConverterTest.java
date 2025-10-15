@@ -20,7 +20,7 @@ class ConverterTest {
         double expected = 3.3333;
         double output = Converter.rubleToEuro(input);
         double value = 0.0001;
-        assertEquals(expected, output, value);
+        assertThat(output).isEqualTo(expected, withPrecision(value));
     }
     @Test
     void whenConvert225RblThen3Dollar() {
@@ -28,7 +28,6 @@ class ConverterTest {
         double expected = 3;
         double output = Converter.rubleToDollar(input);
         double value = 0.0001;
-        assertEquals(expected, output, value);
-        //последнюю срточку в каждом тесте я изменил так как столкнулся с ошибкой и нагуглив с ней справился, код представленный в примере не срабатывал
+        assertThat(output).isEqualTo(expected, withPrecision(value));
     }
 }
