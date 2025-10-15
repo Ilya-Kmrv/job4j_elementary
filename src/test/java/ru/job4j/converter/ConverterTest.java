@@ -16,12 +16,12 @@ class ConverterTest {
     }
 
     @Test
-    void whenConvert200RblThen3dot3333Euro() {
+    void whenConvert200RblThen2dot2222Euro() {
         double input = 200;
-        double expected = 3.3333;
+        double expected = 2.2222;
         double output = Converter.rubleToEuro(input);
         double value = 0.0001;
-        assertThat(output).isEqualTo(expected, withPrecision(value));
+        assertEquals(expected, output, value);
     }
 
     @Test
@@ -30,6 +30,6 @@ class ConverterTest {
         double expected = 3;
         double output = Converter.rubleToDollar(input);
         double value = 0.0001;
-        assertThat(output).isEqualTo(expected, withPrecision(value));
+        assertEquals(expected, output, value);
     }
 }
