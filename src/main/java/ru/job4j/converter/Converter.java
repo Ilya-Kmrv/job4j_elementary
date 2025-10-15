@@ -6,7 +6,7 @@ public class Converter {
         return value / 90;
     }
     public static double rubleToDollar(double value) {
-        // Assuming the conversion rate is 1 Dollar = 75 Rubles
+        // Assuming the conversion rate is 1 Dollar = 75 Rublesss
         return value / 75;
     }
 }
