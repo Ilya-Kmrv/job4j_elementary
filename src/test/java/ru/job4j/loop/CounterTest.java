@@ -96,3 +96,4 @@ class CounterTest {
         assertEquals(expected, output);
     }
 }
+//Просто оставил коммент чтобы переименовать Commit
