@@ -50,4 +50,49 @@ class CounterTest {
         int expected = 0;
         assertEquals(expected, output);
     }
+
+    @Test
+    void whenSumByEvenFrom0to10Then30() {
+        int start = 0;
+        int finish = 10;
+        int output = Counter.sumByEven(start, finish);
+        int expected = 30;
+        assertEquals(expected, output);
+    }
+
+    @Test
+    void whenSumByEvenFrom3to8Then18() {
+        int start = 3;
+        int finish = 8;
+        int output = Counter.sumByEven(start, finish);
+        int expected = 18;
+        assertEquals(expected, output);
+    }
+
+    @Test
+    void whenSumByEvenFrom1to1Then0() {
+        int start = 1;
+        int finish = 1;
+        int output = Counter.sumByEven(start, finish);
+        int expected = 0;
+        assertEquals(expected, output);
+    }
+
+    @Test
+    void whenSumByEvenFrom10to100Then2530() {
+        int start = 10;
+        int finish = 100;
+        int output = Counter.sumByEven(start, finish);
+        int expected = 2530;
+        assertEquals(expected, output);
+    }
+
+    @Test
+    void whenSumByEvenFromMinus2to10Then28() {
+        int start = -2;
+        int finish = 10;
+        int output = Counter.sumByEven(start, finish);
+        int expected = 28;
+        assertEquals(expected, output);
+    }
 }
