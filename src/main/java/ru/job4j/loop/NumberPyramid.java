@@ -15,7 +15,7 @@ public class NumberPyramid {
             for (int j = i - 1; j >= 1; j--) {
                 System.out.print(j);
             }
-            // Переход на новую строку
+            // Переход на новую строxку
             System.out.println();
         }
     }
