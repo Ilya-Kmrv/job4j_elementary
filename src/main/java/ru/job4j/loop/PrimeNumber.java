@@ -5,13 +5,12 @@ public class PrimeNumber {
     public static int calc(int finish) {
         int count = 0;
         for (int n = 2; n <= finish; n++) {
-            if (check(n) == true) {
+            if (check(n)) {
                 count = count + 1;
             }
         }
         return count;
     }
-
 
     public static boolean check(int number) {
         boolean prost = true;
