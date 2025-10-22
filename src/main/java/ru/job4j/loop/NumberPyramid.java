@@ -4,7 +4,7 @@ public class NumberPyramid {
     public static void draw(int n) {
         for (int i = 1; i <= n; i++) {
             // Печатаем пробелы
-            for (int row = n-i; row > 0; row--) {
+            for (int row = n - i; row > 0; row--) {
                 System.out.print(" ");
             }
             // Печатаем числа в прямом порядке
