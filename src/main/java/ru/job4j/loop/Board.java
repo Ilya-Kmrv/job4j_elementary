@@ -12,7 +12,7 @@ public class Board {
                     System.out.print(" ");
                 }
             }
-            /* добавляем перевод на новую строку. */
+            /* добавляем перевод на новую строку */
             System.out.println();
         }
     }
