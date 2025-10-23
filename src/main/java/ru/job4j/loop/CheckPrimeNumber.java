@@ -12,3 +12,4 @@ public class CheckPrimeNumber {
         return prost;
     }
 }
+//Добрый день
