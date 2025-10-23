@@ -7,7 +7,7 @@ public class ArrayDefenition {
 
     public static void main(String[] args) {
 
-        System.out.println("Размер массива равен: " + ages.length);
+        System.out.println("Размер массива равен:  " + ages.length);
         System.out.println("Размер массива равен: " + surnames.length);
         System.out.println("Размер массива равен: " + prices.length);
     }
