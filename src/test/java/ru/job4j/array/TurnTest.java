@@ -14,7 +14,7 @@ class TurnTest {
     }
 
     @Test
-    void whenTurnArrayWithOddAmountOfElementsThenTurnedArray() {
+    void whenTurnArrayWithOddAmount1fElementsThenTurnedArray() {
         int[] input = {1, 2, 3, 4, 5};
         int[] result = Turn.back(input);
         int[] expected = {5, 4, 3, 2, 1};
@@ -22,7 +22,7 @@ class TurnTest {
     }
 
     @Test
-    void whenTurnArrayWithOddAmountOfElementsThenTurnedArray() {
+    void whenTurnArrayWithOddAmount3fElementsThenTurnedArray() {
         int[] input = {1, 2, 3, 4, 5, 6};
         int[] result = Turn.back(input);
         int[] expected = {6, 5, 4, 3, 2, 1};
@@ -30,7 +30,7 @@ class TurnTest {
     }
 
     @Test
-    void whenTurnArrayWithOddAmountOfElementsThenTurnedArray() {
+    void whenTurnArrayWithOddAmount4fElementsThenTurnedArray() {
         int[] input = {1, 2, 3, 4, 5, 6, 7};
         int[] result = Turn.back(input);
         int[] expected = {7, 6, 5, 4, 3, 2, 1};
