@@ -7,17 +7,17 @@ public class MinDiapason {
             return 0;
         }
 
-        if (start<0 || finish >= array.length){
-            System.out.println("вне предела массива");
+        if (start < 0 || finish >= array.length) {
+            System.out.println("Вне предела массива");
             return 0;
         }
 
         int min = array[start];
-               for (int i = start; i <= finish; i++) {
-                   if (array[i] < min) {
-                       min = array[i];
-                   }
-               }
+        for (int i = start; i <= finish; i++) {
+            if (array[i] < min) {
+                min = array[i];
+            }
+        }
         return min;
     }
 }

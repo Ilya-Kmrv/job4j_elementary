@@ -46,7 +46,7 @@ public class MinDiapasonTest {
     }
 
     @Test
-    public void whenArrayIsNull() {
+    public void whenArrayIsNul() {
         int[] array = new int[0];
         int start = 0;
         int finish = 0;
